@@ -7,5 +7,5 @@
 
 # Instructions
 
-**Run "composer install" on root project folder**
+**Run "composer install" on root project folder**<br />
 **Run "php artisan serve" to initialize server**
