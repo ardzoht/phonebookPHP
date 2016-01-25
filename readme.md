@@ -27,4 +27,4 @@
 **Run "php artisan serve" to initialize server**<br/>
 
 # Instructions ( Unix ) 
-**https://laravel.com/docs/4.2
+https://laravel.com/docs/4.2
