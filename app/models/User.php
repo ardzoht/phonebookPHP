@@ -10,4 +10,8 @@ class User extends Eloquent
 {
 
     public $timestamps = false;
+
+    public function user_phonetype() {
+        return $this->hasOne('Phone');
+    }
 }

@@ -10,7 +10,6 @@ class UserController extends \BaseController {
 	public function index()
 	{
 		$users = User::all();
-
 		// load the view and pass the nerds
 		return View::make('user.index')
 			->with('users', $users);
@@ -40,7 +39,7 @@ class UserController extends \BaseController {
 		$rules = array(
 			'name'       => 'required',
 			'email'      => 'required|email',
-			'phone'       => 'required'
+			'phone'       => 'required|numeric'
 		);
 		$validator = Validator::make(Input::all(), $rules);
 
@@ -117,7 +116,7 @@ class UserController extends \BaseController {
 		$rules = array(
 			'name'       => 'required',
 			'email'      => 'required|email',
-			'phone'       => 'required'
+			'phone'       => 'required|numeric'
 		);
 		$validator = Validator::make(Input::all(), $rules);
 

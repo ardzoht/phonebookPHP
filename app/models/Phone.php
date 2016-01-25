@@ -7,5 +7,9 @@
  */
 
 class Phone extends Eloquent {
+    protected $table = 'phone_type';
 
+    public function user()  {
+        return $this->belongsTo('User');
+    }
 }

@@ -63,7 +63,7 @@
             <td>{{ $value->email }}</td>
 
             <td>{{ $value->phone}}</td>
-            <td>{{ $value->phone_type }}</td>
+            <td>{{ Phone::find($value->phone_type)->name }}</td>
 
 
 
