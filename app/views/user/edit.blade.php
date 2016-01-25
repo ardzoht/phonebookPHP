@@ -37,7 +37,7 @@
 
     <div class="form-group">
         {{ Form::label('phone_type', 'Tipo de telefono') }}
-        {{ Form::select('phone_type', array('0' => 'Casa', '1' => 'Trabajo', '2' => 'Otro'), Input::old('phone_type'), array('class' => 'form-control')) }}
+        {{ Form::select('phone_type', array('1' => 'Casa', '2' => 'Trabajo', '3' => 'Otro'), Input::old('phone_type'), array('class' => 'form-control')) }}
     </div>
 
 
