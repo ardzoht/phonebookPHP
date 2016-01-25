@@ -5,7 +5,7 @@
 *  Cry of the Wolf
 *  ardzoht
 
-# Instructions
+# Instructions ( Windows ) 
 
 **Install Laragon**<br/>
 **Copy git content to C:/Laragon/www**<br/>
@@ -25,3 +25,6 @@
 * INSERT INTO phone_type (id, name) VALUES (3, 'Otro');<br/>
 ***laravel stuff***
 **Run "php artisan serve" to initialize server**<br/>
+
+# Instructions ( Unix ) 
+** https://laravel.com/docs/4.2
