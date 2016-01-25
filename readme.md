@@ -27,7 +27,7 @@
 **Run "php artisan serve" to initialize server**<br/>
 
 # Instructions ( Unix ) 
-https://laravel.com/docs/4.2
+https://laravel.com/docs/4.2<br/>
 **Run "composer install" on root project folder**<br />
 ***laravel stuff***<br/>
 **Run "php artisan migrate" on terminal**<br/>
