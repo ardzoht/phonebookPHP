@@ -20,5 +20,5 @@
 **Add value to phone_type:**<br/>
 *INSERT INTO phone_type (id, name) VALUES (1, Casa)
 *INSERT INTO phone_type (id, name) VALUES (2, Trabajo)
-*INSERT INTO phone_type (id, name) VALUES (3, Otro)
+*INSERT INTO phone_type (id, name) VALUES (3, Otro)<br/>
 **Run "php artisan serve" to initialize server**<br/>
